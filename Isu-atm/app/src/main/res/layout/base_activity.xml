@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Welcome to Monopoly Bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_weight="0.26"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.69" />
+
+    <Button
+        android:text="Transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferButton"
+        android:onClick="transferButton" />
+
+    <Button
+        android:text="Deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depositButton"
+        android:onClick="depositButton" />
+
+    <Button
+        android:text="Withdrawal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/withdrawalButton"
+        android:onClick="withdrawalButton" />
+
+    <Button
+        android:text="Check Balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBalanceButton"
+        android:onClick="checkBalanceButton" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutButton"
+        android:onClick="logoutButton" />
+
+</LinearLayout>
